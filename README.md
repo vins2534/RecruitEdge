@@ -113,7 +113,11 @@ def analyze_candidate_experience(resume_text, job_description):
     return aggregate_reasoning_chains(reasoning_chains)
 ```
 
-[GitDiagram-2.pdf](https://github.com/user-attachments/files/19272491/GitDiagram-2.pdf)
+## System Architecture
+
+![System Architecture](./docs/GitDiagram-2.pdf)
+
+[View full architecture diagram](./docs/GitDiagram-2.pdf)
 
 ## Performance Metrics
 
