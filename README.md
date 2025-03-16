@@ -113,6 +113,8 @@ def analyze_candidate_experience(resume_text, job_description):
     return aggregate_reasoning_chains(reasoning_chains)
 ```
 
+[GitDiagram-2.pdf](https://github.com/user-attachments/files/19272491/GitDiagram-2.pdf)
+
 ## Performance Metrics
 
 - **Embedding Generation**: ~250ms per resume
@@ -136,7 +138,6 @@ def analyze_candidate_experience(resume_text, job_description):
 - Minimum 4 CPU cores, 16GB RAM for API servers
 - Vector database: 8 CPU cores, 32GB RAM minimum
 - Storage: 100GB+ for vector indices and document storage
-
 
 ## Installation & Setup
 
