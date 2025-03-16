@@ -31,9 +31,9 @@ import time
 
 #CONSTANTS
 
-GOOGLE_API_KEY_P = "AIzaSyDV5OrNTYhAL2XgnC4bmjTuTYWWXhv7_VE"
-GOOGLE_API_KEY_C = "AIzaSyBBr52tWF3NFz0AqlZDzNJ1G1YwPnRBte4"
-CONNECTION_STRING = 'postgresql://avnadmin:AVNS_0idLIScPnb0L5BezPah@incommon-incommon.i.aivencloud.com:14604/defaultdb?sslmode=require'
+GOOGLE_API_KEY_P = os.getenv("GOOGLE_API_KEY_P")
+GOOGLE_API_KEY_C = os.getenv("GOOGLE_API_KEY_C")
+CONNECTION_STRING = os.getenv("CONNECTION_STRING")
 COLLECTION_NAME_EMPLOYEE = 'TBH_resume'
 COLLECTION_TEAM = 'TBH_Project'
 SYSTEM_PROMPT = '''You are an AI Assistant with Start, Input, Plan, Conversation, and Output states.  
@@ -184,11 +184,11 @@ Ensure the extracted information accurately represents the user's input. Return 
 
 # Database connection function
 def conn():
-    host = "incommon-incommon.i.aivencloud.com"
-    dbname = "defaultdb"
-    username = "avnadmin"
-    port = 14604
-    pwd = "AVNS_0idLIScPnb0L5BezPah"
+    host = os.getenv("HOST")
+    dbname = os.getenv("DB")
+    username = os.getenv("USER")
+    port = os.getenv("PORT")
+    pwd = os.getenv("PWD")
     connection = psycopg2.connect(
         host=host,
         dbname=dbname,
