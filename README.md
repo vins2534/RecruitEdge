@@ -115,9 +115,9 @@ def analyze_candidate_experience(resume_text, job_description):
 
 ## System Architecture
 
-![System Architecture](./docs/GitDiagram-2.pdf)
+![RecruitEdge System Architecture](./docs/architecture-diagram.png)
 
-[View full architecture diagram](./docs/GitDiagram-2.pdf)
+[View architecture diagram as PDF](./docs/GitDiagram-2.pdf)
 
 ## Performance Metrics
 
