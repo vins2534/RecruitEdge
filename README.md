@@ -115,8 +115,9 @@ def analyze_candidate_experience(resume_text, job_description):
 
 ## System Architecture
 
+![RecruitEdge System Architecture]
 
-![RecruitEdge System Architecture](<img width="1433" alt="Screenshot 2025-03-16 at 8 02 44 PM" src="https://github.com/user-attachments/assets/2d578a0c-d1ea-4823-af6b-39ea9f1ea1f5" />)
+<img width="1433" alt="Screenshot 2025-03-16 at 8 02 44 PM" src="https://github.com/user-attachments/assets/2d578a0c-d1ea-4823-af6b-39ea9f1ea1f5" />
 
 [View architecture diagram as PDF](./docs/GitDiagram-2.pdf)
 
