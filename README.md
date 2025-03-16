@@ -137,30 +137,6 @@ def analyze_candidate_experience(resume_text, job_description):
 - Vector database: 8 CPU cores, 32GB RAM minimum
 - Storage: 100GB+ for vector indices and document storage
 
-## API Endpoints
-
-### Candidate Management
-```
-POST /api/v1/candidates/upload
-GET /api/v1/candidates/{id}
-PUT /api/v1/candidates/{id}
-GET /api/v1/candidates/search?q={query}&skills={skills}
-```
-
-### Job Management
-```
-POST /api/v1/jobs
-GET /api/v1/jobs/{id}
-PUT /api/v1/jobs/{id}
-GET /api/v1/jobs/match/{candidate_id}
-```
-
-### Analytics
-```
-GET /api/v1/analytics/matching/{job_id}
-GET /api/v1/analytics/pipeline
-GET /api/v1/analytics/bias-detection
-```
 
 ## Installation & Setup
 
