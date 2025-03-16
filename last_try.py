@@ -724,7 +724,7 @@ def schedule_slots(start, slot, break_time, candids):
 # Function to send interview emails
 def send_emails(candidates, slot):
     sender_email = "wehack060@gmail.com"
-    sender_password = "zdtx uxkr uihg wvlo"  # Use an App Password if needed
+    sender_password = os.getenv("App_Password") # Use an App Password if needed
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
 
